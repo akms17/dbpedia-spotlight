@@ -46,11 +46,11 @@
     <modules>
         <module>core</module>
         <module>rest</module>
-        <module>index</module>
-        <module>eval</module>
-        <module>uima</module>
-        <module>dist</module>
-        <module>rest-tomcat</module>
+        <!--<module>index</module>-->
+        <!--<module>eval</module>-->
+        <!--<module>uima</module>-->
+        <!--<module>dist</module>-->
+        <!--<module>rest-tomcat</module>-->
     </modules>
 
     <build>
@@ -752,15 +752,15 @@
                 -->
             </dependency>
 
-            <dependency>
-                <groupId>com.aliasi</groupId>
-                <artifactId>lingpipe</artifactId>
-                <version>4.1.0</version>
-                <!--
-                   License: Alias-i Royalty Free License Version 1
-                   url: http://alias-i.com/lingpipe/licenses/lingpipe-license-1.txt
-                -->
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.aliasi</groupId>-->
+                <!--<artifactId>lingpipe</artifactId>-->
+                <!--<version>4.1.0</version>-->
+                <!--&lt;!&ndash;-->
+                   <!--License: Alias-i Royalty Free License Version 1-->
+                   <!--url: http://alias-i.com/lingpipe/licenses/lingpipe-license-1.txt-->
+                <!--&ndash;&gt;-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>org.semanticweb.yars</groupId>
